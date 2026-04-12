@@ -1,21 +1,63 @@
+# 🌙 منام (Mnam) - منصة الهبوط الذكية
+
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+  <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+**منام (Mnam)** هي منصّة هبوط (Landing Page) عصرية ومصممة بأعلى معايير الجمال البصري لشركة سعودية متخصصة في إدارة الوحدات السكنية وتحويلها لنزل فندقية فاخرة.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Yx5_Z53YlwP1IAjWxWkqSOe61Gs7gb-a
+## ✨ المميزات الرئيسية (Core Features)
 
-## Run Locally
+- **🤖 مساعد منام الذكي (Gemini Assistant):** مساعد فني متكامل يعمل بذكاء اصطناعي (Google Gemini) للرد على استفسارات الملاك والنزلاء باللهجة السعودية البيضاء بشكل فوري.
+- **💎 تجربة مستخدم (UX) فاخرة:** تصميم واجهات عصري يدعم اللغة العربية بالكامل (RTL) مع تأثيرات حركية (Animations) تجذب الانتباه.
+- **📊 إحصائيات الثقة (Trust Stats):** عرض حي لأداء الشركة (أرباح، ليالي محجوزة، وحدات عقارية) باستخدام عدادات رقمية متحركة.
+- **🛠️ نظام إدارة مرن:** واجهة واضحة لتعريف الملاك بكيفية إضافة عقاراتهم والنسب الربحية.
 
-**Prerequisites:**  Node.js
+---
 
+## 🛠️ التقنيات المستخدمة (Tech Stack)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-# mnam-landing-page
+*   **React 19** - لبناء واجهة المستخدم التفاعلية.
+*   **Vite** - لضمان سرعة بناء وتطوير المشروع.
+*   **Tailwind CSS** - للتنسيق والتحكم الكامل في التصميم عصري.
+*   **Google Gemini API** - لتشغيل المساعد الذكي.
+*   **Framer Motion** - للتحريكات والتأثيرات الانتقالية السلسة.
+
+---
+
+## 🚀 كيفية التشغيل (Getting Started)
+
+### المتطلبات الأساسية
+*   نظام **Node.js** مثبت على جهازك.
+
+### الخطوات
+1.  **تحميل المشروع:**
+    ```bash
+    git clone https://github.com/Abdulrazaq3/mnam-landing-page.git
+    cd mnam-landing-page
+    ```
+2.  **تثبيت المكتبات:**
+    ```bash
+    npm install
+    ```
+3.  **إعداد مفتاح الذكاء الاصطناعي:**
+    *   قم بإنشاء ملف `.env.local` في المجلد الرئيسي.
+    *   أضف مفتاح Gemini الخاص بك:
+        ```env
+        API_KEY=YOUR_GEMINI_API_KEY_HERE
+        ```
+4.  **تشغيل المشروع:**
+    ```bash
+    npm run dev
+    ```
+
+---
+
+## 📄 الترخيص (License)
+هذا المشروع خاص بشركة **منام (Mnam)**. جميع الحقوق محفوظة.
+
+---
+
+<p align="center">تم التطوير بواسطة فريق <b>منام</b> وبإشراف <b>عبد الرزاق الدوسري</b> ✨</p>
