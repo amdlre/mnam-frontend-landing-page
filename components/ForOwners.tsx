@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useForm } from '@formspree/react';
 
 const ForOwners: React.FC = () => {
-  const [state, handleFormspreeSubmit] = useForm("xeeqveap");
+  const [state, handleFormspreeSubmit] = useForm("xjgjelzp");
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
